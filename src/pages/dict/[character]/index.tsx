@@ -11,10 +11,10 @@ export const Character: React.FC = () => {
                 {`Character ${JSON.stringify(query)}`}
             </div>
             <div>
-                Links ssg: <NextLink href={"/dict/a"}>a</NextLink> - <NextLink href={"/dict/b"}>b</NextLink> - <NextLink href={"/dict/c"}>c</NextLink>
+                Links ssg: <NextLink href={"/lexikon/a"}>a</NextLink> - <NextLink href={"/lexikon/b"}>b</NextLink> - <NextLink href={"/lexikon/c"}>c</NextLink>
             </div>
             <div>
-                Links not ssg: <NextLink href={"/dict/d"}>d</NextLink> - <NextLink href={"/dict/e"}>e</NextLink> - <NextLink href={"/dict/f"}>f</NextLink>
+                Links not ssg: <NextLink href={"/lexikon/d"}>d</NextLink> - <NextLink href={"/lexikon/e"}>e</NextLink> - <NextLink href={"/lexikon/f"}>f</NextLink>
             </div>
         </div>
     );
